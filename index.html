@@ -25,7 +25,7 @@
   <body>
     <main class="hero">
       <section class="center-container">
-        <img src="/images/image-product-mobile.jpg" alt="product image" id="product-image"/>
+        <img src="./images/image-product-mobile.jpg" alt="product image" id="product-image"/>
         <div class="info-container">
           <h2>Perfume</h2>
           <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -45,10 +45,10 @@
     <script>
       const productImg = document.getElementById("product-image")
       if (window.matchMedia("(min-width: 420px)").matches){
-        productImg.src = "/images/image-product-desktop.jpg";
+        productImg.src = "./images/image-product-desktop.jpg";
       }
       else {
-        productImg.src = "/images/image-product-mobile.jpg";
+        productImg.src = "./images/image-product-mobile.jpg";
       }
     </script>
   </body>
