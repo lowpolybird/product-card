@@ -2,6 +2,7 @@
 /*variables*/
 :root{
 --dark-cyan: hsl(158, 36%, 37%);
+--dark-green: hsl(159, 41%, 23%);
 --cream: hsl(30, 38%, 92%);
 --dark-blue: hsl(212, 21%, 14%);
 --dark-gray: hsl(228, 12%, 48%);
@@ -114,6 +115,9 @@ button{
     padding: 13px 0px 13px 0px;
     border-radius: 6px;
     margin-top: 15px;
+}
+.add-to-cart:hover{
+    background-color: var(--dark-green);
 }
 #cart-icon{
     width: 4%;
