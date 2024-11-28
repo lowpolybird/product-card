@@ -20,17 +20,19 @@ img{
     width: 100%;
     @media screen and (min-width: 440px) {
         width: 50%;
+        
     }
 }
 h1{
     font-family: var(--ff-fraunces);
-    font-size: 24px;
+    font-size: 35px;
     margin-bottom: 12px;
     line-height: 1;
+    margin-top: 20px;
 }
 h2{
     font-family: var(--ff-montserrat);
-    font-size: 9px;
+    font-size: 12px;
     color: var(--dark-gray);
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -39,7 +41,7 @@ h2{
 }
 p{
     font-family: var(--ff-montserrat);
-    font-size: 11px;
+    font-size: 13px;
     color: var(--dark-gray);
     font-weight: 500;
     line-height: 180%;
@@ -60,45 +62,48 @@ button{
     min-height: 100vh;
     display: grid;
     justify-content: center;
-    @media screen and (min-width: 440px) {
-        place-items: center;
-    }
+    place-items: center;
     
 }
 .center-container{
     overflow: hidden;
     border-radius: 6px;
     width: 90vw;
-    margin-top: 3vh;
+   
     max-height: fit-content;
     background-color: white;
     @media screen and (min-width: 440px) {
-        width: 480px;
-        
+        width: 600px;
+        height: 430px;
         display: flex;
         flex-direction: row;
     }
 }
 .info-container{
-    padding: 24px;
+    padding: 26px;
 }
-
+.perfume{
+   margin-bottom: 0;
+}
+.description{
+    margin-top: 20px;
+}
 .price{
     display: flex;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 21px;
 }
 .current-price{
     color: var(--dark-cyan);
     font-family: var(--ff-fraunces);
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .prev-price{
     display: inline;
-    margin-left: 10px;
-    font-size: 11px;
+    margin-left: 19px;
+    font-size: 12px;
     font-family: var(--ff-montserrat);
     color: var(--dark-gray);
     font-weight: 500;
@@ -114,7 +119,7 @@ button{
     width: 100%;
     padding: 13px 0px 13px 0px;
     border-radius: 6px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .add-to-cart:hover{
     background-color: var(--dark-green);
